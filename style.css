@@ -1,0 +1,87 @@
+.control {
+    background-color: teal;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 15%;
+    border-style: solid;
+    margin: 2px;
+    display: flex;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: silver;
+    border-radius: 6%;
+    border-left: black;
+    border-bottom: black;
+    padding: 2vh
+}
+
+
+
+.operator, .equals {
+    background-color: salmon;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 15%;
+    border-style: solid;
+    margin: 2px;
+    display: flex;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.back, .AC {
+    height: 12vh;
+    width: 26vh;
+}
+
+
+.control:hover {
+    background-color: lightblue;
+}
+
+.operator:hover,.equals:hover {
+    background-color: bisque;
+}
+
+
+.display {
+    text-align: right;
+    font-family: 'VT323', monospace;
+    font-size: 64px;
+    height: 1em;
+    background-color: grey;
+    border-radius: 10%;
+    border: solid;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.control-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.controls-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
